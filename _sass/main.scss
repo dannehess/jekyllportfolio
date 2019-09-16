@@ -1,0 +1,68 @@
+$mainFont: 'Montserrat';
+$mainBgColor: #efefef;
+$pfontSize: 1.2rem;
+$fontColor: #1a1a1d;
+
+:root {
+  font-size:16px;
+}
+
+* {
+  box-sizing:border-box;
+  font-family:"Roboto","Helvetica","sans-serif";
+  color:#555;
+}
+
+$th_pink:#E84A5F;
+$th_dark:#2a363b;
+
+body {
+  margin:0;
+  padding:0;
+  background-color:darken($th_dark,10%);
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+}
+
+main{
+  background-color: $mainBgColor;
+  color: white;
+  width: 100%;
+  height: 80vh;
+  padding: 30px 100px 30px 100px;
+}
+
+.box
+{
+  background-color: white;
+}
+
+section{
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px 30px;
+}
+
+p{
+  font-family: $mainFont;
+  color: #1a1a1d;
+  font-size: $pfontSize;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  line-height: 35px;
+}
+
+.mini-spacer{
+  height: 10px;
+}
+
+h2 > span{
+  width: 300px;
+  padding: 6px 10px;
+  background-color: #1a1a1d;
+  color: white;
+}
