@@ -12,13 +12,14 @@
     height: 250px;
     position: relative;
     background: #1a1a1d;
-    background-image: linear-gradient(to right, #1a1a1d, #2c2c30);
+    font-family: 'Montserrat';
     background-image: url('img/card-bg.png');
     border-radius: 8px;
     background-position: top center;
     transform-style: preserve-3d;
     display: flex;
-    padding: 40px;
+    padding: 20px;
+    padding-top: 40px;
   }
 
   .card:after {
