@@ -1,0 +1,87 @@
+.card {
+    width: 550px;
+    height: 250px;
+    position: relative;
+    background: #1a1a1d;
+    background-image: linear-gradient(to right, #1a1a1d, #2c2c30);
+    background-image: url('img/card-bg.png');
+    border-radius: 8px;
+    background-position: top center;
+    transform-style: preserve-3d;
+    display: flex;
+    padding: 40px;
+  }
+
+  .card:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    border-radius: 50%;
+    left: 0;
+    bottom: 0px;
+    box-shadow: 0 30px 20px rgba(0, 0, 0, .7);
+  }
+
+
+  .card-content {
+    transform-style: preserve-3d;
+    display: flex;
+  }
+
+  .card-content h1 {
+    color: #00cf6f;
+    line-height: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transform: translateZ(50px);
+  }
+
+  .card-content h2 {
+    color: #fff;
+    line-height: 20px;
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    transform: translateZ(50px);
+  }
+
+  .card-content p {
+    color: #FFF;
+    transform: translateZ(50px);
+    margin-bottom: 10px;
+  }
+
+  .card-content img {
+    color: #FFF;
+    transform: translateZ(50px);
+  }
+
+  .card-hr {
+    border: none;
+    height: 4px;
+    background-color: #00cf6f;
+    transform: translateZ(50px);
+    margin-top: 10px;
+  }
+
+  #contact-me {
+    width: 150px;
+    border: 4px solid white;
+    float: left;
+  }
+
+  .card-left {
+    padding-left: 10px;
+  }
+
+  .card-right {
+    padding-left: 40px;
+  }
+
+  .card-icon {
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 6px;
+    margin-top: 4px;
+    transform: translateZ(50px);
+  }
