@@ -3,8 +3,6 @@ layout: default
 title: "Daniel Hessling"
 ---
 
----
----
 <section>
 <h2><span>HELLO!</span></h2>
 <p>

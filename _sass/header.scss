@@ -2,13 +2,18 @@ $th_pink:#E84A5F;
 $th_dark:#2a363b;
 $linkColor: #00cf6f;
 
-header { 
+.test{
+  font-size: 2rem;
+  color: pink;
+}
+
+header, .navigation { 
   height: 12vh;
   .logo{
       width: 40px;
       position: absolute;
       top: 20px;
-      left: 50px;
+      left: 140px;
       z-index: 101;
   } 
   nav {
@@ -62,7 +67,7 @@ header {
   display:block;
   position: absolute;
   z-index:10;
-  right:50px;
+  right:140px;
   top:20px;
   z-index: 101;
   cursor:pointer;
@@ -120,12 +125,21 @@ header {
   }
 }
 
+@media(max-width: 1000px){
+  header{
+    .logo{
+    left: 60px;
+  }
+  .toggle-btn{
+      right: 60px;
+    }
+}
+
 @media(max-width: 800px){
   header{
   .logo{
     left: 20px;
   }
-}
   .toggle-btn{
     right: 20px;
   }
@@ -133,6 +147,6 @@ header {
 
 .hide-scroll {
   overflow: hidden;
-  }
-
-  
+}
+}
+}

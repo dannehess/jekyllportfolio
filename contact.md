@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Daniel Hessling"
+permalink: /contact/
 ---
 
 <section>
