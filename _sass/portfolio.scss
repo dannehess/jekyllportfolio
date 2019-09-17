@@ -1,3 +1,49 @@
+.project-half{
+    display: flex;
+    margin-bottom: 30px;
+    background: none;
+    padding: 0;
+    height: 100%;
+  }
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    margin-bottom: -10px;
+    background-color: white;
+  }
+
 .project-thumb{
     max-width: 100%;
 }
+
+.project:first-child{
+  margin-right: 10px;
+}
+
+.project:nth-child(2){
+  margin-left: 10px;
+}
+
+@media(max-width: 800px){
+    .project-half{
+      flex-direction: column;
+    }
+    .project{
+      width: 100%;
+    }
+    .project:first-child{
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    
+    .project:nth-child(2){
+      margin-left: 0;
+    }
+  }
+  
+  

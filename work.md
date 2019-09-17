@@ -11,12 +11,16 @@ Here you can find projects I have done myself or been a part of. Both private an
 </p>
 </section>
 
-<section class="section-half">
-{% for project in site.posts limit: modu4%}
-<section class="half">
-    <img src="{{ project.image }}" class="project-thumb" alt="{{ project.title }}">
-    <h1>{{ project.title }}</h1>
-    <p>{{ project.description }}</p>
-</section>
-</section>
+
+<section class="project-half">
+{% for projects in site.posts %}
+  {% assign mod3 = forloop.index | modulo: 2 %}
+  <section class="project">
+  <img src="{{ projects.image }}" class="project-thumb" alt="{{ project.title }}">
+  <h1>{{ projects.title }}</h1>
+  <p>{{ projects.description }}</p>
+  </section>
+  {% if mod3 == 0 %}</section><section class="project-half">{% endif %}
+  {% if mod3 == 2 or mod3 == 2 %}<section class="project">{% endif %}
 {% endfor %}
+</section>
