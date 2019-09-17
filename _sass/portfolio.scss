@@ -36,6 +36,19 @@
 
 .project-link{
   font-size: 1.2rem;
+  color: #1a1a1d;
+  background-size: 100% 200%;
+  background-position: top;
+  -webkit-transition: background-position 0.4s ease-in-out;
+  transition: background-position 0.4s ease-in-out;
+}
+
+.project-link:hover{
+  color: white;
+  text-decoration: none;
+  background-position: bottom;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #1a1a1d), color-stop(50%, transparent));
+  background-image: linear-gradient(to top, #1a1a1d 50%, transparent 50%); 
 }
 
 .trunc-desc{
