@@ -1,5 +1,6 @@
 .project-half{
     display: flex;
+    align-items: stretch;
     margin-bottom: 30px;
     background: none;
     padding: 0;
@@ -11,7 +12,6 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 50%;
-    height: 100%;
     padding: 30px;
     margin-bottom: -10px;
     background-color: white;
@@ -27,6 +27,31 @@
 
 .project:nth-child(2){
   margin-left: 10px;
+}
+
+.project-info-trunc{
+  display: flex;
+  width: 100%;
+}
+
+.project-link{
+  font-size: 1.2rem;
+}
+
+.trunc-desc{
+  width: 50%;
+}
+
+.trunc-desc p{
+  padding: 0;
+  margin: 0;
+}
+
+.trunch-link{
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 @media(max-width: 800px){
