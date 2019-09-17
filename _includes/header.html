@@ -8,9 +8,9 @@
   </label>
   <nav>
     <ul>
-      <li><a href="{{ site.url }}">Home</a></li>
-      <li><a href="{{ site.url }}/work">Work</a></li>
-      
+        {% for item in site.data.navigation %}
+        <a href="{{ item.link }}">{{ item.name }}</a>
+        {% endfor %}
     </ul>
   </nav>
 </header>
