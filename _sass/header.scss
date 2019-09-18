@@ -6,16 +6,17 @@ $linkColor: #00cf6f;
 }
 
 header { 
-  height: 12vh;
+  height: 60px;
+  background-color: #1a1a1d;
   .logo{
       width: 40px;
       position: absolute;
-      top: 20px;
+      top: 10px;
       left: 140px;
       z-index: 101;
   } 
   nav {
-    background-color: white;
+    background-color: #1a1a1d;
     position:fixed;
     display: flex;
     align-items: center;
@@ -63,7 +64,7 @@ header {
   position: absolute;
   z-index:10;
   right:140px;
-  top:20px;
+  top:10px;
   z-index: 101;
   cursor:pointer;
   
@@ -71,7 +72,7 @@ header {
     width:30px;
     height:4px;
     margin:7px auto;
-    background-color: #1a1a1d;
+    background-color: white;
     transition:all 0.3s ease-in-out;
   }
 }
@@ -102,7 +103,7 @@ header {
   
   &+label.toggle-btn {
     .bar {
-      background-color:#1a1a1d;
+      background-color:white;
 
       &:nth-child(2) {
         transform:translateX(50px);
