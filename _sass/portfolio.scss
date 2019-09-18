@@ -51,7 +51,7 @@
   background-image: linear-gradient(to top, #1a1a1d 50%, transparent 50%); 
 }
 
-.trunc-desc{
+.trunc-desc, .mob-desc{
   width: 50%;
 }
 
@@ -60,7 +60,7 @@
   margin: 0;
 }
 
-.trunch-link{
+.trunch-link, .mob-link{
   display: flex;
   width: 50%;
   justify-content: flex-end;
@@ -73,7 +73,7 @@
 
 .project-big-h1{
   color: #1a1a1d;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -89,7 +89,25 @@
   padding: 10px;
 }
 
+.back-to{
+  font-size: 1.2rem;
+  color: #1a1a1d;
+  text-decoration: none;
+}
+
+.back-to:hover{
+  text-decoration: underline;
+}
+
 @media(max-width: 800px){
+    .mob-desc{
+      width: 10%;
+    }
+
+    .mob-link{
+      width: 90%;
+    }
+
     .project-half{
       flex-direction: column;
     }

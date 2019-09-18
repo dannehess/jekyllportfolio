@@ -15,15 +15,24 @@ link: https://www.danielhessling.se/skagganget/index.html
   <hr class="green-hr">
 <p>This is another single-project I did at Nackademin.</p>
  <div class="project-info-trunc">
-  <div class="trunc-desc"></div>
-  <div class="trunch-link"><a href="https://www.danielhessling.se/skagganget/index.html" class="big-project-link project-link">LINK TO PROJECT</a></div>
+  <div class="mob-desc"></div>
+  <div class="mob-link"><a href="https://www.danielhessling.se/skagganget/index.html" class="big-project-link project-link" target="_blank">PROJECTLINK</a></div>
   </div>
 </section>
 <section class="project">
 <h1 class="project-big-h1">Tools used</h1>
 <hr class="green-hr">
+<ul>
+<li>HTML 5</li>
+<li>CSS 3</li>
+<li>JavaScript</li>
+<li>jQuery</li>
+<li>Adobe Illustrator</li>
+<li>Adobe Photoshop</li>
+</ul>
 </section>
 </section>
 <div class="center">
-<a href="">BACK TO PROJECTS</a>
+<div class="spacer"></div>
+<a href="/work" class="back-to"><i class="fas fa-angle-left"></i><i class="fas fa-angle-left"></i> Back to projects</a>
 </div>
