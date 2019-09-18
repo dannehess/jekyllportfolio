@@ -20,7 +20,7 @@ at Nackademin.
 <section class="half box">
 
 <div class="know-box box-three">
-<img src="https://www.danielhessling.se/img/book.png" alt="knowledge" class="knowledge-icon">
+<img src="../assets/images/book.png" alt="knowledge" class="knowledge-icon">
 <h3>Knowledge</h3>
 <ul>
 <li>HTML</li>
@@ -34,7 +34,7 @@ at Nackademin.
 <section class="half box">
 
 <div class="know-box box-four">
-<img src="https://www.danielhessling.se/img/screwdriver.png" alt="tools" class="knowledge-icon">
+<img src="../assets/images/screwdriver.png" alt="tools" class="knowledge-icon">
 <h3>Tools</h3>
 <ul>
 <li>Photoshop</li>
