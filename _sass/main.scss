@@ -1,18 +1,11 @@
 $mainFont: 'Montserrat';
 $mainBgColor: #efefef;
-$pfontSize: 1.2rem;
+$pfontSize: 1.4rem;
 $fontColor: #1a1a1d;
 
 :root {
   font-size:16px;
 }
-
-* {
-  box-sizing:border-box;
-}
-
-$th_pink:#E84A5F;
-$th_dark:#2a363b;
 
 *{
   box-sizing: border-box;
@@ -34,20 +27,52 @@ body, html{
 
 main{
   background-color: $mainBgColor;
+  background-color: white;
   display: flex;
   flex-direction: column;
   color: white;
   width: 100%;
   min-height: 80vh;
-  padding: 20px 140px;
+  padding: 20px 220px;
 }
 
 section{
   height: auto;
   margin-bottom: 20px;
-  padding: 20px 30px;
+  padding: 0px 20px 20px 20px;
   color: $fontColor;
   background-color: white;
+}
+
+.wave{
+  background:
+    linear-gradient(to right, sandybrown, chocolate);
+  height: 50px;
+  position: relative;
+}
+.wave::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 10px;
+  background-size: 20px 20px;
+  background-image:
+    radial-gradient(circle at 10px -5px, transparent 12px, aquamarine 13px);
+}
+.wave::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 15px;
+  background-size: 40px 20px;
+  background-image:
+    radial-gradient(circle at 10px 15px, aquamarine 12px, transparent 13px);
 }
 
 p{
@@ -56,6 +81,14 @@ p{
   margin-top: 4px;
   margin-bottom: 4px;
   line-height: 35px;
+}
+
+.wavy-hr{
+  height: 6px;
+	background: url(http://ibrahimjabbari.com/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .mini-spacer{
@@ -153,9 +186,7 @@ margin-bottom: 20px;
 }
 
 #main-me{
-  width: 330px;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  max-width: 330px;
 }
 
 @media(max-width: 1000px){
@@ -165,7 +196,7 @@ margin-bottom: 20px;
 
 @media(max-width: 800px){
 main{
-  padding: 20px;
+  padding: 0px;
 }
   .section-half{
     flex-direction: column;

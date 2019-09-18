@@ -1,18 +1,18 @@
 $linkColor: #00cf6f;
 
-.test{
-  font-size: 2rem;
-  color: pink;
+.hide-scroll {
+  overflow: hidden;
 }
 
 header { 
-  height: 60px;
+  height: 70px;
   background-color: #1a1a1d;
+  
   .logo{
-      width: 40px;
+      width: 45px;
       position: absolute;
-      top: 10px;
-      left: 140px;
+      top: 15px;
+      left: 170px;
       z-index: 101;
   } 
   nav {
@@ -63,8 +63,8 @@ header {
   display:block;
   position: absolute;
   z-index:10;
-  right:140px;
-  top:10px;
+  right:170px;
+  top:15px;
   z-index: 101;
   cursor:pointer;
   
@@ -73,6 +73,7 @@ header {
     height:4px;
     margin:7px auto;
     background-color: white;
+    display: flex;
     transition:all 0.3s ease-in-out;
   }
 }
@@ -137,12 +138,12 @@ nav a:hover{
 }
 
 .logotype{
-  color: white;
+  color: #1a1a1d;
   font-size: 2rem;
   font-family: 'Montserrat';
   position: absolute;
-  top: 10px;
-  left: 140px;
+  top: 30px;
+  left: 170px;
   z-index: 101;
 }
 
@@ -151,23 +152,24 @@ nav a:hover{
     .logo, .logotype{
     left: 60px;
   }
+}
   .toggle-btn{
-      right: 60px;
-    }
+    right: 60px;
+}
 }
 
 @media(max-width: 800px){
   header{
   .logo, .logotype{
-    left: 20px;
+    left: 30px;
   }
+
   .toggle-btn{
-    right: 20px;
+    right: 30px;
   }
 }
 
 .hide-scroll {
   overflow: hidden;
-}
 }
 }
