@@ -7,7 +7,9 @@ link: https://www.danielhessling.se/skagganget/index.html
 ---
 
 <section>
+<div class="mini-spacer"></div>
 <img src="/assets/images/skagganget.png" class="project-big-pic">
+<div class="mini-spacer"></div>
 </section>
 <section class="project-half">
 <section class="project">
@@ -16,7 +18,7 @@ link: https://www.danielhessling.se/skagganget/index.html
 <p>This is another single-project I did at Nackademin.</p>
  <div class="project-info-trunc">
   <div class="mob-desc"></div>
-  <div class="mob-link"><a href="https://www.danielhessling.se/skagganget/index.html" class="big-project-link project-link" target="_blank">PROJECTLINK</a></div>
+  <div class="mob-link"><a href="https://www.danielhessling.se/skagganget/index.html" class="big-project-link project-link" target="_blank">Projectlink</a></div>
   </div>
 </section>
 <section class="project">

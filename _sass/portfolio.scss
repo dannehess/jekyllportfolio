@@ -61,6 +61,7 @@
 
 .project-info-trunc{
   display: flex;
+  align-items: stretch;
   width: 100%;
 }
 
@@ -71,6 +72,9 @@
   background-position: top;
   -webkit-transition: background-position 0.4s ease-in-out;
   transition: background-position 0.4s ease-in-out;
+  text-decoration: none;
+  background-color: #00cf6f;
+  border-radius: 4px;
 }
 
 .project-link-mini{
@@ -107,7 +111,7 @@
   display: flex;
   width: 50%;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .project-big-pic{
@@ -124,7 +128,8 @@
 .green-hr{
   height: 4px;
   width: 100%;
-  background-color: green;
+  background-color: #00cf6f;
+  border: none;
 }
 
 .big-project-link{
