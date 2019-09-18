@@ -67,19 +67,26 @@
   align-items: center;
 }
 
-.project-big{
-  height: auto;
-  margin-bottom: 20px;
-  color: $fontColor;
-}
-
-.project-big-info{
-  padding: 20px;
-}
-
 .project-big-pic{
   width: 100%;
-  border: 10px solid black;
+}
+
+.project-big-h1{
+  color: #1a1a1d;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.green-hr{
+  height: 4px;
+  width: 100%;
+  background-color: green;
+}
+
+.big-project-link{
+  color: #1a1a1d;
+  padding: 10px;
 }
 
 @media(max-width: 800px){

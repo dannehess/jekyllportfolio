@@ -6,24 +6,24 @@ image: ../assets/images/skagganget.png
 link: https://www.danielhessling.se/skagganget/index.html
 ---
 
-<div class="project-big">
+<section>
 <img src="/assets/images/skagganget.png" class="project-big-pic">
-<div class="project-big-info">
-  <div class="project-info-trunc">
-  <div class="trunc-desc"><h1>SKÄGGÄNGET</h1></div>
-  <div class="trunch-link">
-  <a href="https://www.danielhessling.se/skagganget/index.html"><h1>LINK TO PROJECT</h1></a>
+</section>
+<section class="project-half">
+<section class="project">
+  <h1 class="project-big-h1">Skäggänget</h1>
+  <hr class="green-hr">
+<p>This is another single-project I did at Nackademin.</p>
+ <div class="project-info-trunc">
+  <div class="trunc-desc"></div>
+  <div class="trunch-link"><a href="https://www.danielhessling.se/skagganget/index.html" class="big-project-link project-link">LINK TO PROJECT</a></div>
   </div>
-  </div>
-<p>This is another single-project I did at Nackademin.</p>
-<p>This is another single-project I did at Nackademin.</p>
-<p>This is another single-project I did at Nackademin.</p>
-<p>This is another single-project I did at Nackademin.</p>
-<p>This is another single-project I did at Nackademin.</p>
-<p>This is another single-project I did at Nackademin.</p>
-<div class="big-spacer"></div>
+</section>
+<section class="project">
+<h1 class="project-big-h1">Tools used</h1>
+<hr class="green-hr">
+</section>
+</section>
 <div class="center">
-<button>BACK TO PROJECTS</button>
-</div>
-</div>
+<a href="">BACK TO PROJECTS</a>
 </div>
