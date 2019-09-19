@@ -48,13 +48,15 @@
 }
 
 .top-spacer{
-  height: 630px;
+  height: 580px;
   display: block;
 }
 
 header{
-    .logo, .logotype{
-      display: none;
+  height: 100px;
+    .logo{
+      width: 60px;
+      top: 24px;
     }
   
     .toggle-btn{
