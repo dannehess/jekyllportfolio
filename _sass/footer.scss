@@ -1,12 +1,10 @@
-footer{
-    background-color: #efefef;
-    background-color: white;
-    min-height: 10vh;
+.footer-icons{
+    max-width: 850px;
     display: flex;
-    padding-top: 30px;
-    padding-bottom: 50px;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .social-media-icon{
@@ -15,4 +13,20 @@ footer{
     margin-top: 0;
     margin-bottom: 0;
     max-width: 40px;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .footer-hr{
+      width: 100%;
+      max-width: 850px;
+      padding: 0 20px;
   }

@@ -6,6 +6,7 @@ title: "Daniel Hessling"
 <section>
 <div class="big-spacer"></div>
 <h2><span>HELLO!</span></h2>
+<div class="mini-spacer"></div>
 <p>
 My name is Daniel Hessling and I am currently studying Front-End Development at
 Nackademin in
@@ -20,6 +21,7 @@ at Nackademin.
 </section>
 <section>
 <h2><span>ABOUT ME</span></h2>
+<div class="mini-spacer"></div>
 <p>
 I am a 30 year old student from Stockholm, Sweden. My interests in web-development started in my early years. At that time I was focused on HTML and CSS.
 </p>
@@ -58,3 +60,4 @@ I am a 30 year old student from Stockholm, Sweden. My interests in web-developme
 </div>
 </section>
 </section>
+<div class="footer-hr"><hr class="wavy-hr"></div>
