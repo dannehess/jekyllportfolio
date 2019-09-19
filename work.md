@@ -5,10 +5,14 @@ permalink: /work/
 ---
 
 <section>
+<div class="big-spacer"></div>
 <h2><span>WORK</span></h2>
+<div class="mini-spacer"></div>
 <p>
 Here you can find projects I have done myself or been a part of. Both private and at my school (Nackademin).
 </p>
+<div class="mini-spacer"></div>
+<hr class="wavy-hr">
 </section>
 
 <section class="project-half">
@@ -28,3 +32,4 @@ Here you can find projects I have done myself or been a part of. Both private an
   {% if mod3 == 2 or mod3 == 2 %}<section class="project">{% endif %}
 {% endfor %}
 </section>
+<div class="footer-hr"><hr class="wavy-hr"></div>

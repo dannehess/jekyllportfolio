@@ -1,0 +1,64 @@
+.mobile-main-top-section{
+    display: none;
+    .mobile-top-name{
+        display: none;
+    }
+}
+
+@media(max-width: 1000px){
+    header{
+      .logo, .logotype{
+      left: 60px;
+    }
+  }
+    .toggle-btn{
+      right: 60px;
+  }
+  }
+  
+  @media(max-width: 800px){
+    header{
+    .logo, .logotype{
+      left: 30px;
+    }
+  
+    .toggle-btn{
+      right: 30px;
+    }
+  }
+  }
+
+@media(max-width: 700px){
+.mobile-main-top-section{
+    background-color: red;
+    background-image: url('/assets/images/jag.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header{
+    .logo, .logotype{
+      display: none;
+    }
+  
+    .toggle-btn{
+        top: 30px;
+      right: 40px;
+      .bar{
+          width: 40px;
+          margin: 8px auto;
+      }
+    }
+  }
+  main{
+      margin-top: 610px;
+  }
+}
+

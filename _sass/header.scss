@@ -146,30 +146,3 @@ nav a:hover{
   left: 170px;
   z-index: 101;
 }
-
-@media(max-width: 1000px){
-  header{
-    .logo, .logotype{
-    left: 60px;
-  }
-}
-  .toggle-btn{
-    right: 60px;
-}
-}
-
-@media(max-width: 800px){
-  header{
-  .logo, .logotype{
-    left: 30px;
-  }
-
-  .toggle-btn{
-    right: 30px;
-  }
-}
-
-.hide-scroll {
-  overflow: hidden;
-}
-}

@@ -36,7 +36,7 @@ I am a 30 year old student from Stockholm, Sweden. My interests in web-developme
 <section class="half box">
 
 <div class="know-box box-three">
-<img src="../assets/images/book.png" alt="knowledge" class="knowledge-icon">
+<img src="{{ site.baseurl }}/assets/images/book.png" alt="knowledge" class="knowledge-icon">
 <h3>Knowledge</h3>
 <ul>
 <li>HTML</li>
@@ -49,7 +49,7 @@ I am a 30 year old student from Stockholm, Sweden. My interests in web-developme
 <section class="half box">
 
 <div class="know-box box-four">
-<img src="../assets/images/screwdriver.png" alt="tools" class="knowledge-icon">
+<img src="{{ site.baseurl }}/assets/images/screwdriver.png" alt="tools" class="knowledge-icon">
 <h3>Tools</h3>
 <ul>
 <li>Photoshop</li>
