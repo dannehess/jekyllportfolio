@@ -14,11 +14,8 @@ element.addEventListener('click', function(e) {
 });
 
 
-let topsection = document.querySelector('header');
-
-window.addEventListener("scroll", () => {
-  let rect = topsection.getBoundingClientRect();
-  window.innerHeight - rect.top > window.innerHeight + 1
-    ? (smalltopheader.style.display = "none")
-    : (smalltopheader.style.display = "none");
+$(document).ready(function() {
+  $(".scroll").click(function(event){
+      $('html, body').animate({scrollTop: '+=150px'}, 800);
+  });
 });

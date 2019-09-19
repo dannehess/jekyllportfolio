@@ -3,6 +3,8 @@ layout: default
 title: "Daniel Hessling"
 ---
 
+<div class="mobile-main-top-section"></div>
+<div class="top-spacer"></div>
 <section>
 <div class="big-spacer"></div>
 <h2><span>HELLO!</span></h2>

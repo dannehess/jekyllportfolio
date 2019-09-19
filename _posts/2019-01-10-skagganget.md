@@ -9,7 +9,6 @@ link: https://www.danielhessling.se/skagganget/index.html
 <section>
 <div class="mini-spacer"></div>
 <img src="{{ site.baseurl }}/assets/images/skagganget.png" class="project-big-pic">
-<div class="mini-spacer"></div>
 </section>
 <section class="project-half">
 <section class="project">
@@ -35,6 +34,6 @@ link: https://www.danielhessling.se/skagganget/index.html
 </section>
 </section>
 <div class="center">
-<div class="spacer"></div>
+<hr class="wavy-hr">
 <a href="/work" class="back-to"><i class="fas fa-angle-left"></i><i class="fas fa-angle-left"></i> Back to projects</a>
 </div>

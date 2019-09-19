@@ -6,6 +6,10 @@
     }
 }
 
+.top-spacer{
+  display: none;
+}
+
 @media(max-width: 1000px){
     header{
       .logo, .logotype{
@@ -43,6 +47,11 @@
     right: 0;
 }
 
+.top-spacer{
+  height: 630px;
+  display: block;
+}
+
 header{
     .logo, .logotype{
       display: none;
@@ -57,9 +66,6 @@ header{
       }
       
     }
-  }
-  main{
-      margin-top: 610px;
   }
 }
 
