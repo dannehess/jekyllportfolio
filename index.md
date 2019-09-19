@@ -58,4 +58,3 @@ I am a 30 year old student from Stockholm, Sweden. My interests in web-developme
 </div>
 </section>
 </section>
-<hr class="wavy-hr">

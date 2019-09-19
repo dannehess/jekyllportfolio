@@ -1,4 +1,3 @@
-/*
 
 let card = document.querySelector('.card');
 
@@ -8,7 +7,6 @@ document.addEventListener('mousemove', function (e) {
   card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
 });
 
-*/
 
 var element = document.getElementById('toggle');
 element.addEventListener('click', function(e) {
