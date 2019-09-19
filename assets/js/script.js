@@ -11,4 +11,14 @@ document.addEventListener('mousemove', function (e) {
 var element = document.getElementById('toggle');
 element.addEventListener('click', function(e) {
     document.getElementsByTagName('body')[0].classList.toggle('hide-scroll');
-})
+});
+
+
+let topsection = document.querySelector('header');
+
+window.addEventListener("scroll", () => {
+  let rect = topsection.getBoundingClientRect();
+  window.innerHeight - rect.top > window.innerHeight + 1
+    ? (smalltopheader.style.display = "none")
+    : (smalltopheader.style.display = "none");
+});
