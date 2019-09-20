@@ -4,6 +4,7 @@ title: "Daniel Hessling"
 permalink: /contact/
 ---
 
+<a href="{{site.url}}"><img class="mob-logo" src="{{ site.baseurl }}/assets/images/dh.png"></a>
 <div class="card-div">
 <div class='card'>
 <div class="card-content">

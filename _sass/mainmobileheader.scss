@@ -111,14 +111,20 @@ line-height: 0;
   display: block;
 }
 
+.mob-logo{
+  position: absolute;
+  display: block;
+  top: 22px;
+  left: 30px;
+  width: 60px;
+}
+
 header{
   height: 100px;
     .logo{
-      left: 30px;
-      top: 23px;
-      width: 60px;
+      display: none;
     }
-  
+    
     .toggle-btn{
         top: 30px;
       right: 40px;

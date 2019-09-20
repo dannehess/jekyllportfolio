@@ -4,6 +4,7 @@ title: "Daniel Hessling"
 permalink: /work/
 ---
 
+<a href="{{site.url}}"><img class="mob-logo" src="{{ site.baseurl }}/assets/images/dh.png"></a>
 <section>
 <div class="big-spacer"></div>
 <h2><span>WORK</span></h2>
