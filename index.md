@@ -4,6 +4,12 @@ title: "Daniel Hessling"
 ---
 
 <div class="mobile-main-top-section">
+<div id="mob-header-name">
+<div id="mob-name-group">
+<h1>Daniel Hessling</h1>
+<h2>Frontend-developer</h2>
+</div>
+</div>
 </div>
 <div class="top-spacer"></div>
 <section>
