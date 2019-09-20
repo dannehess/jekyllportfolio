@@ -44,30 +44,25 @@ I am a 30 year old student from Stockholm, Sweden. My interests in web-developme
 </p>
 <hr class="wavy-hr">
 </section>
-<section class="section-half">
-<section class="half box">
-<div class="know-box box-three">
-<img src="{{ site.baseurl }}/assets/images/book.png" alt="knowledge" class="knowledge-icon">
-<h3>Knowledge</h3>
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>jQuery</li>
-</ul>
+<section>
+<h2><span>KNOWLEDGE</span></h2>
+<div class="mini-spacer"></div>
+<div class="abilities">
+<span id="html">HTML5</span>
+<span id="css">CSS3</span>
+<span id="js">JavaScript</span>
+<span id="jquery">jQuery</span>
 </div>
+<hr class="wavy-hr">
 </section>
-<section class="half box">
-<div class="know-box box-four">
-<img src="{{ site.baseurl }}/assets/images/screwdriver.png" alt="tools" class="knowledge-icon">
-<h3>Tools</h3>
-<ul>
-<li>Photoshop</li>
-<li>Illustrator</li>
-<li>InDesign</li>
-<li>Adobe XD</li>
-</ul>
+<section>
+<h2><span>TOOLS</span></h2>
+<div class="mini-spacer"></div>
+<div class="abilities">
+<span id="ps">Adobe Photoshop</span>
+<span id="ai">Adobe Illustrator</span>
+<span id="id">Adobe InDesign</span>
+<span id="xd">Adobe XD</span>
 </div>
+<hr class="wavy-hr">
 </section>
-</section>
-<div class="footer-hr"><hr class="wavy-hr"></div>

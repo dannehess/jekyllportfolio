@@ -16,10 +16,56 @@
     max-width: 300px;
     box-shadow: 1px 1px 20px rgb(169, 169, 169);
     border: 2px solid white;
+    border-radius: 4px;
 }
 
 .welcome-info{
     padding: 8px 20px;
+}
+
+.abilities{
+    display: flex;
+    padding: 20px 40px;
+    span{
+        padding: 10px 20px;
+        border-radius: 4px;
+        background-color: #00cf6f;
+        display: flex;
+        margin: 10px;
+        width: auto;
+        font-size: 1rem;
+        justify-content: center;
+    }
+    #html{
+        background-color: #F16529;
+    }
+    #css{
+        background-color: #378fd3;
+        color: white;
+    }
+    #js{
+        background-color: #f8d700;
+    }
+    #jquery{
+        background-color: #0060ac;
+        color: white;
+    }
+    #ps{
+        background-color: #272138;
+        color: #00c7f7;
+    }
+    #ai{
+        background-color: #271100;
+        color: #f87200;
+    }
+    #id{
+        background-color: #320219;
+        color: #f80085;
+    }
+    #xd{
+        background-color: #32001d;
+        color: #f800bf;
+    }
 }
 
 @media(max-width: 700px){
@@ -28,5 +74,9 @@
     .welcome-pic{
         display: none;
         }
+    }
+    .abilities{
+        flex-direction: column;
+        padding: 0 70px;
     }
 }
