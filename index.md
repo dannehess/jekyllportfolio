@@ -12,8 +12,11 @@ title: "Daniel Hessling"
 </div>
 </div>
 <div class="top-spacer"></div>
-<section>
-<div class="big-spacer"></div>
+<div class="welcome-section">
+<div class="welcome-pic">
+<img src="{{ site.baseurl }}/assets/images/jag.jpg" class="knowledge-icon">
+</div>
+<div class="welcome-info">
 <h2><span>HELLO!</span></h2>
 <div class="mini-spacer"></div>
 <p>
@@ -27,7 +30,8 @@ being a part of,
 at Nackademin.
 </p>
 <hr class="wavy-hr">
-</section>
+</div>
+</div>
 <section>
 <h2><span>ABOUT ME</span></h2>
 <div class="mini-spacer"></div>
