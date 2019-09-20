@@ -3,7 +3,8 @@ layout: default
 title: "Daniel Hessling"
 ---
 
-<div class="mobile-main-top-section"></div>
+<div class="mobile-main-top-section">
+</div>
 <div class="top-spacer"></div>
 <section>
 <div class="big-spacer"></div>
@@ -33,10 +34,8 @@ I am a 30 year old student from Stockholm, Sweden. My interests in web-developme
 </p>
 <hr class="wavy-hr">
 </section>
-
 <section class="section-half">
 <section class="half box">
-
 <div class="know-box box-three">
 <img src="{{ site.baseurl }}/assets/images/book.png" alt="knowledge" class="knowledge-icon">
 <h3>Knowledge</h3>
@@ -49,7 +48,6 @@ I am a 30 year old student from Stockholm, Sweden. My interests in web-developme
 </div>
 </section>
 <section class="half box">
-
 <div class="know-box box-four">
 <img src="{{ site.baseurl }}/assets/images/screwdriver.png" alt="tools" class="knowledge-icon">
 <h3>Tools</h3>

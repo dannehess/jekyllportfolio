@@ -4,6 +4,30 @@
     .mobile-top-name{
         display: none;
     }
+    #mob-header-name{
+      margin: 20px;
+      background-color: rgba(26, 26, 29, .4);
+      width: 280px;
+      padding: 20px 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+      
+#mob-header-name-h1{
+color: #00cf6f;
+font-size: 1.8rem;
+line-height: 10px;
+font-family: 'Montserrat', sans-serif;
+      }
+      
+      #mob-header-name-h2{
+color: white;
+font-size: 1.2rem;
+font-family: 'Montserrat', sans-serif;
+line-height: 0;
+      }
 }
 
 .top-spacer{
@@ -55,8 +79,9 @@
 header{
   height: 100px;
     .logo{
+      left: 30px;
+      top: 23px;
       width: 60px;
-      top: 24px;
     }
   
     .toggle-btn{

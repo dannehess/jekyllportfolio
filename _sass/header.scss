@@ -4,16 +4,20 @@ $linkColor: #00cf6f;
   overflow: hidden;
 }
 
+.header-content{
+  max-width: 900px;
+}
+
 header { 
   height: 70px;
   background-color: #1a1a1d;
-  
   .logo{
       width: 45px;
       position: absolute;
       top: 15px;
-      left: 170px;
+      left: 30px;
       z-index: 101;
+
   } 
   nav {
     background-color: #1a1a1d;
@@ -63,7 +67,7 @@ header {
   display:block;
   position: absolute;
   z-index:10;
-  right:170px;
+  right:30px;
   top:15px;
   z-index: 101;
   cursor:pointer;
