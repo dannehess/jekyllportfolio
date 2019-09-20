@@ -17,6 +17,7 @@ title: "Daniel Hessling"
 <img src="{{ site.baseurl }}/assets/images/jag.jpg" class="knowledge-icon">
 </div>
 <div class="welcome-info">
+<div class="big-spacer"></div>
 <h2><span>HELLO!</span></h2>
 <div class="mini-spacer"></div>
 <p>

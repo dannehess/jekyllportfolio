@@ -23,12 +23,6 @@
     opacity: 1;
 }
 
-.project-thumb:hover{
-  opacity: 1;;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-
 .project-thumb-overlay{
   background-color: #1a1a1d;
   position: absolute;
@@ -98,8 +92,12 @@
   background-image: linear-gradient(to top, #1a1a1d 50%, transparent 50%); 
 }
 
-.trunc-desc, .mob-desc{
-  width: 50%;
+.trunc-desc{
+  width: 70%;
+}
+
+.mob-desc{
+  width: 30%;
 }
 
 .trunc-desc p{
