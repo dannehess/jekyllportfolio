@@ -1,15 +1,5 @@
     $(document).ready(function(){
 
-        $('.logo').waypoint( () => {
-            anime({
-                targets: '.logo',
-                scale: [.6,1],
-                duration: 1000,
-                translateY: [-100, 1],
-                easing: 'linear'
-            });
-        }, { offset: '90%' });
-
         $('#main-me').waypoint( () => {
             anime({
                 targets: '#main-me',
