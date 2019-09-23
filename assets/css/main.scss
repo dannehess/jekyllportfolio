@@ -1,6 +1,8 @@
 ---
 ---
 
+$baseurl: "{{ site.baseurl }}";
+
 @import "header";
 @import "mainmobileheader";
 @import "index";
