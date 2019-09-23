@@ -15,7 +15,7 @@ index: true
 <div class="top-spacer"></div>
 <div class="welcome-section">
 <div class="welcome-pic">
-<img src="../assets/images/jag.jpg" alt="me" id="main-me">
+<img src="{{site-url}}/assets/images/jag.jpg" alt="me" id="main-me">
 </div>
 <div class="big-spacer"></div>
 <div class="welcome-info">
