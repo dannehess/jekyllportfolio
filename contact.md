@@ -5,6 +5,14 @@ permalink: /contact/
 contact: true
 ---
 
+
+<section>
+<div class="big-spacer"></div>
+<h2><span>CONTACT</span></h2>
+<div class="mini-spacer"></div>
+<p>If you want to contact me, use the contactform down below.</p>
+<div class="spacer contact-d-none"></div>
+
 <a href="{{site.url}}"><img class="mob-logo" src="{{ site.baseurl }}/assets/images/dh.png"></a>
 <div class="card-div">
 <div class='card'>
@@ -33,17 +41,9 @@ contact: true
 </div>
 </div>
 </div>
-</div>
 
-<section>
-<div class="big-spacer"></div>
-<h2><span>CONTACT</span></h2>
-<div class="mini-spacer"></div>
-<p>If you want to contact me, use the form down below or get in touch with me at:</p>
 
-<div class="mini-spacer"></div>
-<div class="mini-spacer"></div>
-<hr class="wavy-hr">
+<div class="spacer contact-d-none"></div>
 <div class="big-spacer"></div>
 
 <div class="contact-center-form">
@@ -61,7 +61,7 @@ contact: true
 <textarea name="message" required></textarea><br><br>
 <input name="submit" type="submit" value="Send" id="submit_button">
 </form>
-<div class="spacer"></div>
 </div>
 
+<div class="big-spacer"></div>
 </section>
