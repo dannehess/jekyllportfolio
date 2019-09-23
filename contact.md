@@ -13,28 +13,28 @@ contact: true
 <p id="contact-info">If you want to contact me, use the contactform down below.</p>
 <div class="spacer contact-d-none"></div>
 
-<a href="{{site.url}}"><img class="mob-logo" src="{{ site.baseurl }}/assets/images/dh.png"></a>
+<a href="{{site.url}}"><img class="mob-logo" src="../assets/images/dh.png"></a>
 <div class="card-div">
 <div class='card'>
 <div class="card-content">
 <div class="card-left">
-<img src="{{ site.baseurl }}/assets/images/jag.jpg" id="contact-me">
+<img src="../assets/images/jag.jpg" id="contact-me">
 </div>
 <div class="card-right">
 <h1>Daniel Hessling</h1>
 <h2>Frontend-Developer</h2>
 <p>daniel.hessling@gmail.com</p>
 <a href="https://linkedin.com/in/danielhessling" target="_blank">
-<img src="{{ site.baseurl }}/assets/images/linkedin.png" class="card-icon">
+<img src="../assets/images/linkedin.png" class="card-icon">
 </a>
 <a href="https://twitter.com/dannehess" target="_blank">
-<img src="{{ site.baseurl }}/assets/images/twitter.png" class="card-icon">
+<img src="../assets/images/twitter.png" class="card-icon">
 </a>
 <a href="https://www.facebook.com/daniel.hessling.1" target="_blank">
-<img src="{{ site.baseurl }}/assets/images/facebook.png" class="card-icon">
+<img src="../assets/images/facebook.png" class="card-icon">
 </a>
 <a href="https://www.instagram.com/dannehess/" target="_blank">
-<img src="{{ site.baseurl }}/assets/images/instagram.png" class="card-icon">
+<img src="../assets/images/instagram.png" class="card-icon">
 </a>
 <hr class="card-hr">
 </div>
