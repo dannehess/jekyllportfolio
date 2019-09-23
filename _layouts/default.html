@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/ab37c3a8e0.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  </head>
-  <body>
-    <div class="container">
-        {% include header.html %}
-      <main>
-            <div class="main-content">
-    {{ content}}
-    </div>
-  </main>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ab37c3a8e0.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    {% include header.html %}
+    <main>
+      <div class="main-content">
+        {{ content}}
+      </div>
+    </main>
     {% include footer.html %}
   </div>
-  </body>
-  <script src="{{ site.baseurl }}/assets/js/script.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</body>
+{% if page.contact %}
+<script src="{{ site.baseurl }}/assets/js/contact.js"></script>
+{% endif %}
+<script src="{{ site.baseurl }}/assets/js/global.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
 </html>

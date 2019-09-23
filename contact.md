@@ -2,6 +2,7 @@
 layout: default
 title: "Daniel Hessling"
 permalink: /contact/
+contact: true
 ---
 
 <a href="{{site.url}}"><img class="mob-logo" src="{{ site.baseurl }}/assets/images/dh.png"></a>
