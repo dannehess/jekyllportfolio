@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Daniel Hessling"
+index: true
 ---
 
 <div class="mobile-main-top-section">

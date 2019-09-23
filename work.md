@@ -2,6 +2,7 @@
 layout: default
 title: "Daniel Hessling"
 permalink: /work/
+work: true
 ---
 
 <section>
