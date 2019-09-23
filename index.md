@@ -21,13 +21,13 @@ index: true
 <div class="welcome-info">
 <h2><span>HELLO!</span></h2>
 <div class="mini-spacer"></div>
-<p>
+<p id="welcome-info">
 My name is Daniel Hessling and I am currently studying Front-End Development at
 Nackademin in
 Stockholm, Sweden.
 </p>
 <div class="mini-spacer"></div>
-<p>
+<p id="welcome-info-two">
 The purpose of this website is to show who I am, projects I have done by myself or being a part of, at Nackademin.
 </p>
 </div>
@@ -38,11 +38,11 @@ The purpose of this website is to show who I am, projects I have done by myself 
 <div class="big-spacer"></div>
 <h2><span>ABOUT ME</span></h2>
 <div class="mini-spacer"></div>
-<p>
+<p id="about-info">
 I am a 30 year old student from Stockholm, Sweden. My interests in web-development started in my early years. At that time I was focused on HTML and CSS.
 </p>
 <div class="mini-spacer"></div>
-<p>
+<p id="about-info-two">
  Now I am also learning JavaScript which I am looking forward to work with in the future.
 </p>
 <div class="big-spacer"></div>
