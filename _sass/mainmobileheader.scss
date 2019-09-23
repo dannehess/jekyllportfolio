@@ -93,7 +93,7 @@ line-height: 0;
 
 @media(max-width: 700px){
 .mobile-main-top-section{
-    background-image: url('/assets/images/jag.jpg');
+    background-image: url('#{$baseurl}/assets/images/jag.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
