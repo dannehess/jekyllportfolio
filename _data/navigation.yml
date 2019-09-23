@@ -1,6 +1,6 @@
 - name: Home
-  link: /
+  link: jekyllportfolio/
 - name: Work
-  link: /work
+  link: jekyllportfolio/work
 - name: Contact
-  link: /contact
+  link: jekyllportfolio/contact
