@@ -10,19 +10,58 @@ contact: true
 <div class='card'>
 <div class="card-content">
 <div class="card-left">
-<img src="../assets/images/jag.jpg" id="contact-me">
+<img src="{{ site.baseurl }}/assets/images/jag.jpg" id="contact-me">
 </div>
 <div class="card-right">
 <h1>Daniel Hessling</h1>
 <h2>Frontend-Developer</h2>
 <p>daniel.hessling@gmail.com</p>
-<img src="assets/images/linkedin.png" class="card-icon">
-<img src="images/twitter.png" class="card-icon">
-<img src="img/facebook.png" class="card-icon">
-<img src="img/instagram.png" class="card-icon">
+<a href="https://linkedin.com/in/danielhessling" target="_blank">
+<img src="{{ site.baseurl }}/assets/images/linkedin.png" class="card-icon">
+</a>
+<a href="https://twitter.com/dannehess" target="_blank">
+<img src="{{ site.baseurl }}/assets/images/twitter.png" class="card-icon">
+</a>
+<a href="https://www.facebook.com/daniel.hessling.1" target="_blank">
+<img src="{{ site.baseurl }}/assets/images/facebook.png" class="card-icon">
+</a>
+<a href="https://www.instagram.com/dannehess/" target="_blank">
+<img src="{{ site.baseurl }}/assets/images/instagram.png" class="card-icon">
+</a>
 <hr class="card-hr">
 </div>
 </div>
 </div>
 </div>
 </div>
+
+<section>
+<div class="big-spacer"></div>
+<h2><span>CONTACT</span></h2>
+<div class="mini-spacer"></div>
+<p>If you want to contact me, use the form down below or get in touch with me at:</p>
+
+<div class="mini-spacer"></div>
+<div class="mini-spacer"></div>
+<hr class="wavy-hr">
+<div class="big-spacer"></div>
+
+<div class="contact-center-form">
+<form id="kontakt" name="kontakt" method="post" action="contactform.php">
+<p class="label-p">Name:</p>
+<input type="text" name="name" required>
+<div class="mini-spacer"></div>
+<p class="label-p">E-mail:</p>
+<input type="text" name="email" required>
+<div class="mini-spacer"></div>
+<p class="label-p">Subject:</p>
+<input type="text" name="subject" required>
+<div class="mini-spacer"></div>
+<p class="label-p">Message:</p>
+<textarea name="message" required></textarea><br><br>
+<input name="submit" type="submit" value="Send" id="submit_button">
+</form>
+<div class="spacer"></div>
+</div>
+
+</section>
