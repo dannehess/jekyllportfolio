@@ -1,47 +1,6 @@
     $(document).ready(function(){
 
-        let $welcomeInfo = $('#welcome-info');
-        $welcomeInfo.waypoint( () => {
-            anime({
-                targets: '#welcome-info',
-                scale: [.6,1],
-                duration: 400,
-                easing: 'linear'
-            });
-        }, { offset: '90%' });
-
-        let $welcomeInfoTwo = $('#welcome-info-two');
-        $welcomeInfoTwo.waypoint( () => {
-            anime({
-                targets: '#welcome-info-two',
-                scale: [.6,1],
-                duration: 400,
-                easing: 'linear'
-            });
-        }, { offset: '90%' });
-
-        let $aboutInfo = $('#about-info');
-        $aboutInfo.waypoint( () => {
-            anime({
-                targets: '#about-info',
-                scale: [.6,1],
-                duration: 400,
-                easing: 'linear'
-            });
-        }, { offset: '90%' });
-
-        let $aboutInfoTwo = $('#about-info-two');
-        $aboutInfoTwo.waypoint( () => {
-            anime({
-                targets: '#about-info-two',
-                scale: [.6,1],
-                duration: 400,
-                easing: 'linear'
-            });
-        }, { offset: '90%' });
-
-        let $mainMe = $('#main-me');
-        $mainMe.waypoint( () => {
+        $('#main-me').waypoint( () => {
             anime({
                 targets: '#main-me',
                 scale: [.6,1],
@@ -50,8 +9,44 @@
             });
         }, { offset: '90%' });
 
-        let $knowledgeTable = $('#main-know');
-        $knowledgeTable.waypoint( () => {
+        $('#welcome-info').waypoint( () => {
+            anime({
+                targets: '#welcome-info',
+                scale: [.6,1],
+                duration: 400,
+                easing: 'linear'
+            });
+        }, { offset: '90%' });
+
+        $('#welcome-info-two').waypoint( () => {
+            anime({
+                targets: '#welcome-info-two',
+                scale: [.6,1],
+                duration: 400,
+                easing: 'linear'
+            });
+        }, { offset: '90%' });
+
+        $('#about-info').waypoint( () => {
+            anime({
+                targets: '#about-info',
+                scale: [.6,1],
+                duration: 400,
+                easing: 'linear'
+            });
+        }, { offset: '90%' });
+
+        $('#about-info-two').waypoint( () => {
+            anime({
+                targets: '#about-info-two',
+                scale: [.6,1],
+                duration: 400,
+                easing: 'linear'
+            });
+        }, { offset: '90%' });
+        
+
+        $('#main-know').waypoint( () => {
             anime({
                 targets: '#main-know',
                 scale: [.6,1],
@@ -60,8 +55,7 @@
             });
         }, { offset: '90%' });
 
-        let $toolsTable = $('#main-tools');
-        $toolsTable.waypoint( () => {
+        $('#main-tools').waypoint( () => {
             anime({
                 targets: '#main-tools',
                 scale: [.6,1],
