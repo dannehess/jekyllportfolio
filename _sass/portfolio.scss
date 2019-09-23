@@ -112,6 +112,10 @@
   align-items: flex-end;
 }
 
+.mob-link{
+  width: 70%;
+}
+
 .project-big-pic{
   width: 100%;
 }
@@ -143,6 +147,17 @@
 
 .back-to:hover{
   text-decoration: underline;
+}
+
+.tools-used-list{
+  list-style-type: none; 
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.tools-used-list li{
+  margin-bottom: 10px;
+  font-size: 1.3rem;
 }
 
 @media(max-width: 800px){
