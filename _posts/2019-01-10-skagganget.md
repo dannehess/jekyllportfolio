@@ -39,6 +39,6 @@ link: https://www.danielhessling.se/skagganget/index.html
 <div class="center">
 <hr class="wavy-hr">
 <div class="big-spacer"></div>
-<a href="/work" class="back-to"><i class="fas fa-angle-left"></i><i class="fas fa-angle-left"></i> Back to projects</a>
+<a href="{{ site.baseurl }}/work" class="back-to"><i class="fas fa-angle-left"></i><i class="fas fa-angle-left"></i> Back to projects</a>
 </div>
 <div class="spacer"><div>
