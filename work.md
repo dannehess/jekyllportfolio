@@ -2,13 +2,14 @@
 layout: default
 title: "Daniel Hessling"
 permalink: /work/
+work: true
 ---
 
 <section>
 <div class="big-spacer"></div>
 <h2><span>WORK</span></h2>
 <div class="mini-spacer"></div>
-<p>
+<p id="work-info">
 Here you can find projects I have done myself or been a part of. Both private and at my school (Nackademin).
 </p>
 <div class="mini-spacer"></div>

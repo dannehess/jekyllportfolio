@@ -10,7 +10,7 @@ contact: true
 <div class="big-spacer"></div>
 <h2><span>CONTACT</span></h2>
 <div class="mini-spacer"></div>
-<p>If you want to contact me, use the contactform down below.</p>
+<p id="contact-info">If you want to contact me, use the contactform down below.</p>
 <div class="spacer contact-d-none"></div>
 
 <a href="{{site.url}}"><img class="mob-logo" src="{{ site.baseurl }}/assets/images/dh.png"></a>
