@@ -80,6 +80,7 @@ line-height: 0;
   }
   
   @media(max-width: 800px){
+   
     header{
     .logo, .logotype{
       left: 30px;
@@ -106,7 +107,7 @@ line-height: 0;
 }
 
 .top-spacer{
-  height: 630px;
+  height: calc(100vh - 70px);
   display: block;
 }
 
