@@ -149,9 +149,12 @@
     display: none;
     flex-direction: column;
     padding: 20px;
+    max-width: 100%;
   }
 
   #mymail{
+    display: flex;
+    justify-content: center;
     background-color: #00cf6f;
     color: #1a1a1d;
     padding:10px;
