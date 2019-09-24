@@ -116,6 +116,7 @@ line-height: 0;
   top: 15px;
   left: 20px;
   width: 45px;
+  z-index: 100;
 }
 
 header{
@@ -134,4 +135,10 @@ header{
       
     }
   }
+}
+
+@media(max-width: 375px){
+.mobile-main-top-section{
+  background-position: calc(100% + 260px);
+}
 }
