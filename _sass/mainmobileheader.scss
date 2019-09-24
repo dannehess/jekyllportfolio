@@ -136,3 +136,9 @@ header{
     }
   }
 }
+
+@media(max-width: 375px){
+.mobile-main-top-section{
+  background-position: calc(100% + 260px);
+}
+}
