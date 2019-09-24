@@ -57,5 +57,5 @@ contact: true
 </div>
 
 <div class="big-spacer d-none"></div>
-<div class="spacer"></div>
+<div class="big-spacer"></div>
 </section>
