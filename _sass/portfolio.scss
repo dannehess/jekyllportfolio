@@ -196,3 +196,13 @@
     padding: 2px 4px;
     }
     }
+
+    @media(max-width: 350px){
+      .project{
+      padding: 0
+      }
+      
+      .section{
+      padding: 0 10px 10px 10px
+      }
+      }
