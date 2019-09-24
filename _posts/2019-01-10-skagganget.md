@@ -8,7 +8,7 @@ link: https://www.danielhessling.se/skagganget/index.html
 
 <section>
 <div class="big-spacer"></div>
-<img src="{{ site.baseurl }}/assets/images/skagganget.png" class="project-big-pic">
+<img src="{{ site.baseurl }}/assets/images/skagganget.png" class="project-big-pic" alt="skagganget">
 </section>
 <section class="project-half">
 <section class="project">
