@@ -132,11 +132,8 @@
     margin-bottom: 10px;
   }
 
-  #success{
-    font-family: 'Montserrat', sans-serif;
-    color: green;
-    font-size: 1.2em;
-    display: none;
+  #mailto{
+    color: white;
   }
 
   .card-right a{
@@ -148,10 +145,42 @@
     justify-content: center;
   }
 
+  .contact-social-media-mobile{
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .mylinkedin{
+    background:#0084b4;
+  }
+
+  .mytwitter{
+    background:#1dcaff;
+  }
+
+  .myinstagram{
+    background:linear-gradient(to right, #405DE6, #5851DB , #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+  }
+
+  .myfacebook{
+    background:#3b5998;
+  }
+
+  .mylinkedin, .mytwitter, .myinstagram, .myfacebook{
+    color:white;
+    padding:10px;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
 
   @media(max-width:800px){
     .card{
       display: none;
+    }
+    .contact-social-media-mobile{
+      display: flex;
     }
     input[type=text], textarea{
       width: 100%;
