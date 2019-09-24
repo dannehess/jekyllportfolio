@@ -15,7 +15,7 @@
     position: relative;
     background: #1a1a1d;
     font-family: 'Montserrat';
-    background-image: url('{{ site.baseurl }}/assets/images/card-bg.png');
+    background-image: url('#{$baseurl}/assets/images/card-bg.png');
     border-radius: 8px;
     background-position: top center;
     transform-style: preserve-3d;
@@ -159,7 +159,7 @@
     color: #1a1a1d;
     padding: 10px 30px;
     font-size: 1.6rem;
-    display: inline-block;
+    width: 280px;
     text-decoration: none;
     margin-bottom: 30px;
     border-radius: 4px;
@@ -187,11 +187,10 @@
     color:white;
     padding: 10px 30px;
     font-size: 1.6rem;
-    display: inline-block;
     text-decoration: none;
     margin-bottom: 30px;
     border-radius: 4px;
-    width: 200px;
+    width: 280px;
   }
 
   @media(max-width:800px){
