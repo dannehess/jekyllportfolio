@@ -11,7 +11,7 @@ contact: true
 <h2><span>CONTACT</span></h2>
 <div class="mini-spacer"></div>
 <p id="contact-info">If you want to contact me, feel free to send an email or get in touch at social media.</p>
-<div class="mini-spacer"></div>
+<div class="big-spacer"></div>
 <div class="big-spacer contact-d-none"></div>
 
 <a href="{{site.url}}"><img class="mob-logo" src="../assets/images/dh.png"></a>
@@ -45,7 +45,7 @@ contact: true
 
 <div class="contact-social-media-mobile">
 
-<a href="mailto:daniel.hessling@gmail.com" target="_blank" id="mymail">daniel.hessling@gmail.com</a>
+<a href="mailto:daniel.hessling@gmail.com" target="_blank" id="mymail">Email me</a>
 
 <a href="https://linkedin.com/in/danielhessling" target="_blank" id="mylinkedin">My LinkedIn</a>
 
