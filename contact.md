@@ -11,8 +11,7 @@ contact: true
 <h2><span>CONTACT</span></h2>
 <div class="mini-spacer"></div>
 <p id="contact-info">If you want to contact me, feel free to send an email or get in touch at social media.</p>
-<div class="big-spacer"></div>
-<hr class="wavy-hr d-none">
+<div class="mini-spacer"></div>
 <div class="big-spacer contact-d-none"></div>
 
 <a href="{{site.url}}"><img class="mob-logo" src="../assets/images/dh.png"></a>
