@@ -5,7 +5,6 @@ permalink: /contact/
 contact: true
 ---
 
-
 <section>
 <div class="big-spacer"></div>
 <h2><span>CONTACT</span></h2>
