@@ -47,7 +47,7 @@ contact: true
 <div class="big-spacer"></div>
 
 <div class="contact-center-form">
-<form id="kontakt" name="kontakt" method="post" action="contactform.php">
+<form id="kontakt" name="kontakt" method="post" action="https://www.danielhessling.se/jekyllcontactform.php">
 <p class="label-p">Name:</p>
 <input type="text" name="name" required>
 <div class="mini-spacer"></div>
@@ -61,6 +61,7 @@ contact: true
 <textarea name="message" required></textarea><br><br>
 <input name="submit" type="submit" value="Send" id="submit_button">
 </form>
+<span id="success">Message sent!</span>
 </div>
 
 <div class="big-spacer"></div>
