@@ -16,7 +16,3 @@ document.addEventListener('mousemove', function (e) {
   let yAxis = (window.innerHeight / 2 - e.pageY) / 40;
   card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
 });
-
-$("#kontakt").submit(function(event){
-  $('#success').fadeIn(500).fadeOut(3000);
-});
