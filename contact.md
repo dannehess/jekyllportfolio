@@ -14,28 +14,28 @@ contact: true
 <div class="big-spacer"></div>
 <div class="big-spacer contact-d-none"></div>
 
-<a href="{{site.url}}"><img class="mob-logo" src="../assets/images/dh.png"></a>
+<a href="{{site.url}}"><img class="mob-logo" src="../assets/images/dh.png" alt="mob-logo"></a>
 <div class="card-div">
 <div class='card'>
 <div class="card-content">
 <div class="card-left">
-<img src="../assets/images/jag.jpg" id="contact-me">
+<img src="../assets/images/jag.jpg" id="contact-me" alt="contact-me">
 </div>
 <div class="card-right">
 <h1>Daniel Hessling</h1>
 <h2>Frontend-Developer</h2>
 <p><a id="mailto" href="mailto:daniel.hessling@gmail.com">daniel.hessling@gmail.com</a></p>
 <a href="https://linkedin.com/in/danielhessling" target="_blank">
-<img src="../assets/images/linkedin.png" class="card-icon">
+<img src="../assets/images/linkedin.png" class="card-icon" alt="linkedin">
 </a>
 <a href="https://twitter.com/dannehess" target="_blank">
-<img src="../assets/images/twitter.png" class="card-icon">
+<img src="../assets/images/twitter.png" class="card-icon" alt="twitter">
 </a>
 <a href="https://www.facebook.com/daniel.hessling.1" target="_blank">
-<img src="../assets/images/facebook.png" class="card-icon">
+<img src="../assets/images/facebook.png" class="card-icon" alt="facebook">
 </a>
 <a href="https://www.instagram.com/dannehess/" target="_blank">
-<img src="../assets/images/instagram.png" class="card-icon">
+<img src="../assets/images/instagram.png" class="card-icon" alt="instagram">
 </a>
 <hr class="card-hr">
 </div>
