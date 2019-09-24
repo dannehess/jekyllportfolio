@@ -148,6 +148,7 @@
   .contact-social-media-mobile{
     display: none;
     flex-direction: column;
+    justify-content: center;
     max-width: 100%;
   }
 
@@ -157,11 +158,11 @@
     background-color: #00cf6f;
     color: #1a1a1d;
     padding:10px;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-decoration: none;
     margin-bottom: 30px;
     border-radius: 4px;
-    width: 200px;
+    width: 300px;
   }
 
   #mylinkedin{
