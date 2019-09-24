@@ -157,7 +157,7 @@
     padding:10px;
     font-size: 2rem;
     text-decoration: none;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-radius: 4px;
   }
 
@@ -178,11 +178,13 @@
   }
 
   #mylinkedin, #mytwitter, #myinstagram, #myfacebook{
+    display: flex;
+    justify-content: center;
     color:white;
     padding:10px;
     font-size: 2rem;
     text-decoration: none;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-radius: 4px;
   }
 

@@ -12,8 +12,8 @@ contact: true
 <div class="mini-spacer"></div>
 <p id="contact-info">If you want to contact me, feel free to send an email or get in touch at social media.</p>
 <div class="big-spacer"></div>
-<hr class="wavy-hr">
-<div class="spacer contact-d-none"></div>
+<hr class="wavy-hr d-none">
+<div class="big-spacer contact-d-none"></div>
 
 <a href="{{site.url}}"><img class="mob-logo" src="../assets/images/dh.png"></a>
 <div class="card-div">
@@ -45,6 +45,9 @@ contact: true
 </div>
 
 <div class="contact-social-media-mobile">
+
+<a href="mailto:daniel.hessling@gmail.com" target="_blank" id="mymail">daniel.hessling@gmail.com</a>
+
 <a href="https://linkedin.com/in/danielhessling" target="_blank" id="mylinkedin">My LinkedIn</a>
 
 <a href="https://twitter.com/dannehess" target="_blank" id="mytwitter">My Twitter</a>
@@ -54,6 +57,6 @@ contact: true
 <a href="https://www.instagram.com/dannehess/" target="_blank" id="myinstagram">My Instagram</a>
 </div>
 
-<div class="big-spacer"></div>
+<div class="big-spacer d-none"></div>
 <div class="spacer"></div>
 </section>
