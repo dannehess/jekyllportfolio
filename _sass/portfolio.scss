@@ -186,3 +186,13 @@
       margin-left: 0;
     }
   }
+
+  @media(max-width: 500px){
+    .trunc-desc p{
+    font-size: 1.1rem;
+    }
+    
+    .project-link-mini{
+    Padding: 2px 4px;
+    }
+    }
