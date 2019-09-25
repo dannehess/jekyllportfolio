@@ -1,17 +1,5 @@
-var element = document.getElementById('toggle');
-element.addEventListener('click', function(e) {
-    document.getElementsByTagName('body')[0].classList.toggle('hide-scroll');
-});
-
-$(document).ready(function() {
-  $(".scroll").click(function(event){
-      $('html, body').animate({scrollTop: '+=150px'}, 800);
-  });
-});
-
-const hoverInfo = function(socialmedia, link){
+const hoverInfo = function(socialmedia){
         this.socialmedia = document.getElementById(socialmedia)
-        this.link = document.querySelector(link);
 }
 
 hoverInfo.prototype.showUrl = function(url){
