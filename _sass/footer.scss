@@ -19,22 +19,15 @@
     height: 40px;
     display: flex;
     justify-content: center;
-    background-color: green;
+    background-color: rgb(41, 41, 41);
     align-items: center;
+    border-radius: 4px;
   }
 
   #desc{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 288px;
-    height: 30px;
-    background-color: red;
+    width: auto;
     color: white;
-    border-radius: 4px;
-    padding: 10px;
     font-size: 1.2rem;
-    z-index: 10000;
   }
 
   footer{
