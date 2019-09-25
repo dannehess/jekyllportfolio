@@ -24,17 +24,14 @@ hoverInfo.prototype.showUrl = function(url){
             })
 }
 
-  let email = new hoverInfo('mymail');
-  email.showUrl('daniel.hessling@gmail.com');
-  
-  let linkedin = new hoverInfo('mylinkedin');
+  let linkedin = new hoverInfo('footer-linkedin');
   linkedin.showUrl('linkedin.com/in/danielhessling');
   
-  let twitter = new hoverInfo('mytwitter');
-  twitter.showUrl('twitter.com/dannehess');
-  
-  let facebook = new hoverInfo('myfacebook');
+  let facebook = new hoverInfo('footer-facebook');
   facebook.showUrl('facebook.com/daniel.hessling.1');
-  
-  let instagram = new hoverInfo('myinstagram');
+
+  let instagram = new hoverInfo('footer-instagram');
   instagram.showUrl('instagram.com/dannehess/');
+
+  let twitter = new hoverInfo('footer-twitter');
+  twitter.showUrl('twitter.com/dannehess');
