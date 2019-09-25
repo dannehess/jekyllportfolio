@@ -14,19 +14,17 @@
     max-width: 40px;
   }
 
-  .footer-desc{
+.footer-desc{
     max-width: 350px;
     height: 40px;
     display: flex;
     justify-content: center;
-    background-color: rgb(41, 41, 41);
     align-items: center;
-    border-radius: 4px;
+    margin-top: 10px;
+    color: white;
   }
 
   #desc{
-    width: auto;
-    color: white;
     font-size: 1.2rem;
   }
 
